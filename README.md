@@ -7,7 +7,7 @@ A lightweight **CLI calculator** for performing arithmetic and converting number
 - Evaluate basic arithmetic expressions: `+`, `-`, `*`, `/`  
 - Parse and convert numbers in **decimal**, **binary** (`0b` prefix), and **hexadecimal** (`0x` prefix)  
 - Show a number in all formats at once or in a chosen format  
-- **Show calculation**: see how the operation is performed in all formats (decimal, binary, hex)
+- TODO! **Show calculation**: see how the operation is performed in all formats (decimal, binary, hex)
 
 ## Commands
 
@@ -35,14 +35,14 @@ Binary : 0b1111011
 Hex    : 0x7B
 
 # Perform an arithmetic operation
-$ calc "0b1011 + 0b110" --format dec
+$ calc 0b1011 + 0b110 --format dec
 17
 
-$ calc "0xA * 0x3" --format bin
+$ calc 0xA \* 0x3 --format bin
 0b11110
 
 # Show calculation steps
-$ calc "5 + 3" --showcalc
+$ calc --showcalc 5 + 3
 Decimal: 5 + 3 = 8
 Binary : 0b101 + 0b011 = 0b1000
 Hex    : 0x5 + 0x3 = 0x8
