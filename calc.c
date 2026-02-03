@@ -27,7 +27,7 @@ void show_number(int64_t number) {
     printf("\n");
 
     // Print hexadecimal representation
-    printf("Hex    : 0x%llX\n", unsigned_number);
+    printf("Hex    : 0x%08llX\n", unsigned_number & 0xFFFFFFFF);
     
 }
 
