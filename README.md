@@ -23,7 +23,6 @@ A lightweight **CLI calculator** for performing arithmetic and converting number
 
 - Numbers can be entered in **decimal**, **binary** (`0b1010`), or **hexadecimal** (`0xA`).  
 - Binary and hexadecimal inputs are automatically recognized by their prefixes.  
-- Works the same way in **bash** and **zsh**.  
 
 ## Usage Examples
 
